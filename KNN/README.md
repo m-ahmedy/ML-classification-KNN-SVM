@@ -1,4 +1,4 @@
-# Decision Tree
+# K-Nearest Neighbors
 ## Training set
 ![](./img/training.png)
 ## Test set

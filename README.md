@@ -22,6 +22,7 @@ K nearest neighbors is a simple algorithm that stores all available cases and cl
 <img src="./img/knn/knn.png" style="margin: 30px auto; display: block;" />
 
 ### What it does for you?
+
 <img src="./img/knn/knn.gif" style="margin: 30px auto; display: block;" />
 
 ### Algorithm
@@ -29,6 +30,8 @@ A case is classified by a majority vote of its neighbors, with the case being as
 
 #### Distance functions
 As shown in the figure below, Thr Minkowski function is a general form of distance function, so this will be used with aid of paramaeter q (p in python)
+
+
 <img src="./img/knn/KNN_similarity.png" style="margin: 30px auto; display: block;" />
 
 Steps:
@@ -38,14 +41,17 @@ Steps:
 - Step 4: Assign the new data point to the category where you counted the most neighbors
 
 ### Pros and Cons
--   Pros
-    -   Easy to interpret visually when the trees only contain several levels
-    -   Can easily handle qualitative (categorical) features
-    -   Works well with decision boundaries parallel to the feature axis
--   Cons
-    -   Prone to overfitting
-    -   Possible issues with diagonal decision boundaries
-
+- Pros
+  - No assumptions about data — useful, for example, for nonlinear data
+  - Simple algorithm — to explain and understand/interpret
+  - High accuracy (relatively) — it is pretty high but not competitive in comparison to better supervised learning models
+  - Versatile — useful for classification or regression
+- Cons
+  - Computationally expensive — because the algorithm stores all of the training data
+  - High memory requirement
+  - Stores all (or almost all) of the training data
+  - Prediction stage might be slow (with big N)
+  - Sensitive to irrelevant features and the scale of the data
 ### Example
 Courtesy of SuperDataScience &copy; and Machine Learning A-Z &trade; course.
 

@@ -1,4 +1,4 @@
-# Decision Tree
+# Support Vector Machine
 ## Training set
 ![](./img/training.png)
 ## Test set
